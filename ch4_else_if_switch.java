@@ -3,17 +3,17 @@ public class ch4_else_if_switch {
         String var = "aman";
         // use of switch command(remember to use break; after each case)
         switch (var) { //this is advance switch cmd
-            case "bh" -> System.out.println("You are legal to have sex");
+            case "bh" -> System.out.println("You are legal to  marry");
             /* case "bh": //this is  old switch cmd
-             System.out.println("You are legal to have sex");
+             System.out.println("You are legal to  marry");
              break;
              */
             case "aman" -> System.out.println("You are legal to have a child or marry");
             case "pihu" -> System.out.println("i am glad to hear that");
-            case "rash" -> System.out.println("your marriage cant proceed");
+            case "rash" -> System.out.println("your marriage can't proceed");
             default -> System.out.println("no comment on this");
         }
-        System.out.println("why do you want to be intimate!!");
+        System.out.println("why do you want to do it!!");
         
 
 
